@@ -1,4 +1,15 @@
 # Starter pipeline
+- task: FortifyOnDemandStatic@3
+  inputs:
+    FortifyProjects: 'https://github.com/Stephaniegrazze/Test1'
+    BSIToken: 'eyJ0ZW5hbnRJZCI6MywidGVuYW50Q29kZSI6IkF1c3Rlc3QiLCJyZWxlYXNlSWQiOjI0MDgsInBheWxvYWRUeXBlIjoiQU5BTFlTSVNfUEFZTE9BRCIsImFzc2Vzc21lbnRUeXBlSWQiOjcyLCJ0ZWNobm9sb2d5VHlwZSI6Ii5ORVQiLCJ0ZWNobm9sb2d5VHlwZUlkIjoxLCJ0ZWNobm9sb2d5VmVyc2lvbiI6IjQuNyIsInRlY2hub2xvZ3lWZXJzaW9uSWQiOjE2LCJhdWRpdFByZWZlcmVuY2UiOiJBdXRvbWF0ZWQiLCJhdWRpdFByZWZlcmVuY2VJZCI6MiwiaW5jbHVkZVRoaXJkUGFydHkiOmZhbHNlLCJpbmNsdWRlT3BlblNvdXJjZUFuYWx5c2lzIjpmYWxzZSwicG9ydGFsVXJpIjoiaHR0cHM6Ly9hcGFjLmZvcnRpZnkuY29tIiwiYXBpVXJpIjoiaHR0cHM6Ly9hcGkuYXBhYy5mb3J0aWZ5LmNvbSIsInNjYW5QcmVmZXJlbmNlIjoiU3RhbmRhcmQiLCJzY2FuUHJlZmVyZW5jZUlkIjoxfQ=='
+    APIAuthenticationType: '2'
+    Username: 'steph_seclead'
+    PersonalAccessTokenSecret: 'eDkvJGI1ZWZ-eGIxMGFET2lBMGFFQURCbGJncllV0'
+    TenantID: 'Austest'
+    ProxyHost: 'http://web-proxy.sgp.hpecorp.net'
+    ProxyPort: '8080'
+    EntitlementPreference: '2'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
